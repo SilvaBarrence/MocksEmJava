@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa39aea2-3956-4751-abed-5025612cac7a" name="Default Changelist" comment="" />
+    <list default="true" id="aa39aea2-3956-4751-abed-5025612cac7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/RepositorioDePagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/relogio/Relogio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/relogio/RelogioDoSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/caelum/leilao/GeradorDePagamentoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/teste-de-unidade/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/teste-de-unidade/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/RepositorioDeLeiloes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/RepositorioDeLeiloes.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1hsgFuikR9SRiHdnuixXDCZ6fQN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,39 +41,33 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hamcrest-all-1.3.0RC1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha">
-    <configuration name="EncerradorDeLeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in teste-de-unidade (2)">
+    <configuration name="All in teste-de-unidade (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncerradorDeLeilaoTest.deveAtualizarLeiloesEncerrados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in teste-de-unidade (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <option name="METHOD_NAME" value="deveAtualizarLeiloesEncerrados" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in teste-de-unidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,33 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncerradorDeLeilaoTest.deveEnviarEmailAposPersistirLeilaoEncerrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
+          <option name="PATTERN" value="br.com.caelum.leilao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <option name="METHOD_NAME" value="deveEnviarEmailAposPersistirLeilaoEncerrado" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EncerradorDeLeilaoTest.naoDeveEncerrarLeiloesQueComecaramMenosDeUmaSemanaAtras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.leilao.servico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
-      <option name="METHOD_NAME" value="naoDeveEncerrarLeiloesQueComecaramMenosDeUmaSemanaAtras" />
+      <option name="PACKAGE_NAME" value="br.com.caelum.leilao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.leilao.GeradorDePagamentoTest" />
+      <option name="METHOD_NAME" value="deveGerarPagamentoParaUmLeilaoEncerrado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in teste-de-unidade (2)" />
+        <item itemvalue="JUnit.All in teste-de-unidade (1)" />
+        <item itemvalue="JUnit.GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" />
+        <item itemvalue="JUnit.All in teste-de-unidade" />
         <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarAExecucaoMesmoQuandoDaoFalha" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveEnviarEmailAposPersistirLeilaoEncerrado" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest.naoDeveEncerrarLeiloesQueComecaramMenosDeUmaSemanaAtras" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest" />
-        <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveAtualizarLeiloesEncerrados" />
       </list>
     </recent_temporary>
   </component>
@@ -136,41 +128,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1600987631487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600987631487" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600887306850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1600887306850" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1600990701313">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600990701313" />
     <state x="389" y="106" key="FileChooserDialogImpl" timestamp="1600805441599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600805441599" />
-    <state width="1323" height="230" key="GridCell.Tab.0.bottom" timestamp="1600888154710">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1600991431210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600888154710" />
-    <state width="1323" height="230" key="GridCell.Tab.0.center" timestamp="1600888154710">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600991431210" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1600991431210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600888154710" />
-    <state width="1323" height="230" key="GridCell.Tab.0.left" timestamp="1600888154710">
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600991431210" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1600991431210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600888154710" />
-    <state width="1323" height="230" key="GridCell.Tab.0.right" timestamp="1600888154710">
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600991431210" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1600991431210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="230" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600888154710" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600991431210" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1600805511081">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600805511081" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1600868818156">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1600973234705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600868818156" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600973234705" />
     <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600805191776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1600805191776" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600989672626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1600989672626" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600990147556">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600990147556" />
   </component>
 </project>
